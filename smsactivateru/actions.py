@@ -60,7 +60,7 @@ class GetNumber(ActionsModel):
 	@error_handler
 	def __response_processing(self, response, wrapper):
 		data = response.split(':')
-		return SmsActivation(data[1], data[2], wrapper)
+		return SmsActivation(data[1], data[2], data[3], wrapper)
 
 	def request(self, wrapper):
 		"""
