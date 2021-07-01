@@ -27,7 +27,7 @@ def requirements():
 
 
 setup(
-	name='smsactivateru',
+	name='smsactivatein',
 	version='1.2.6',
 	long_description=long_description(),
 	long_description_content_type='text/markdown',
@@ -36,9 +36,9 @@ setup(
 	license='Apache License, Version 2.0, see LICENSE file',
 	keywords='sms, revice, sms-activate-ru, autoreg',
 	author_email='tezmenpro@gmail.com',
-	url='https://github.com/tezmen/python-sms-activate-ru',
-	download_url='https://github.com/tezmen/python-sms-activate-ru/archive/master.zip',
-	packages=['smsactivateru'],
+	url='https://github.com/obsquriel/sms-activate-chris',
+	download_url='https://github.com/obsquriel/sms-activate-chris/archive/master.zip',
+	packages=['smsactivatein'],
 	install_requires=requirements(),
 	classifiers=[
 		'License :: OSI Approved :: Apache Software License',
